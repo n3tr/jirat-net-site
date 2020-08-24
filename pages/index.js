@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Jirat Ki - Net" key="title" />
-        <meta property="og:image" content="/og-image.png" />
+        <meta property="og:image" content="https://jirat.net/og-image.png" />
       </Head>
       <div className={styles.backgroundContainer}>
         <ParticleBlock />
