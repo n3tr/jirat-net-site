@@ -1,0 +1,34 @@
+.HeroBlock {
+  height: 100vh;
+  width: 100%;
+
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  opacity: 1;
+}
+
+.fill {
+  background: #fff;
+  flex:1;
+}
+
+.center {
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  .center {
+    flex: 6;
+  }
+}
+
+
+.logo {
+  width: 100%;
+  height: auto;
+}
